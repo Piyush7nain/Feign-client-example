@@ -1,0 +1,5 @@
+package com.piyush.models;
+
+public class Department {
+
+}

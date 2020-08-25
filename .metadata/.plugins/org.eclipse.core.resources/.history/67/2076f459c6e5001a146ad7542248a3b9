@@ -1,0 +1,5 @@
+package com.piyush.Services;
+
+public interface DepartmentService {
+
+}
