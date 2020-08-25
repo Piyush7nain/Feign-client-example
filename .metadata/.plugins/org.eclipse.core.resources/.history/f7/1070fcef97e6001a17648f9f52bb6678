@@ -28,7 +28,7 @@ public class DepartmentController {
 	}
 	
 	@GetMapping("/departments/{id}")
-	public Object getAllDepartments(@PathVariable int id){
+	public ResponseEntity<Department> getAllDepartments(@PathVariable int id){
 		return ResponseEntity.status(HttpStatus.OK).body(service.getDepartmentById(id));
 	}
 }

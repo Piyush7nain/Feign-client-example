@@ -9,5 +9,5 @@ import org.springframework.web.bind.annotation.PathVariable;
 public interface DepartmentClient {
 
 	@GetMapping("/api/v1/departments/{id}")
-	public Object getDepartmentById(@PathVariable int id);
+	public ResponseEntity<DepartmentReponseModel> getDepartmentById(@PathVariable int id);
 }
